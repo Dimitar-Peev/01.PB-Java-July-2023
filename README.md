@@ -42,6 +42,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [Programming Basics Retake Online Exam - 2 And 3 May 2019](https://github.com/Dimitar-Peev/01.PB-Java-July-2023/tree/main/_08_ProgrammingBasicsExams/PB_Online_Retake_Exam_2_and_3_May_2019)
 - [Programming Basics Online Exam - 15 And 16 June 2019](https://github.com/Dimitar-Peev/01.PB-Java-July-2023/tree/main/_08_ProgrammingBasicsExams/PB_Online_Exam_15_and_16_June_2019)
 - [Programming Basics Online Exam - 6 And 7 July 2019](https://github.com/Dimitar-Peev/01.PB-Java-July-2023/tree/main/_08_ProgrammingBasicsExams/PB_Online_Exam_6_and_7_July_2019)
+- [Programming Basics Online Exam - 28 And 29 March 2020](https://github.com/Dimitar-Peev/01.PB-Java-July-2023/tree/main/_08_ProgrammingBasicsExams/PB_Online_Exam_28_and_29_March_2020)
 - [Programming Basics Online Exam - 18 And 19 July 2020](https://github.com/Dimitar-Peev/01.PB-Java-July-2023/tree/main/_08_ProgrammingBasicsExams/PB_Online_Exam_18_and_19_July_2020)
 
 ## Certificates
