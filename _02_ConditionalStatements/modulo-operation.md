@@ -14,15 +14,15 @@ Here are a few examples of how modulo operation can be used in real life:
 
 ### Example 1: Remainder when dividing a smaller number by a larger one
 
-```python
+```java
 # We have two numbers
-a = 10
-b = 3
+int a = 10;
+int b = 3;
 
 # We use the modulo operation to find the remainder
-remainder = a % b
+int remainder = a % b;
 
-print(f"The remainder of dividing {a} by {b} is {remainder}.")
+System.out.print(f"The remainder of dividing {a} by {b} is {remainder}.");
 ```
 **Explanation:** When we divide 10 by 3, we have 3 whole numbers in the quotient and a remainder of 1. The modulo operation gives us this remainder.
 
