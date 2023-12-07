@@ -22,7 +22,7 @@ int b = 3;
 # We use the modulo operation to find the remainder
 int remainder = a % b;
 
-System.out.printf("The remainder of dividing {a} by {b} is {remainder}.", a, b);
+System.out.printf("The remainder of dividing %d by %d is {remainder}.", a, b);
 ```
 **Explanation:** When we divide 10 by 3, we have 3 whole numbers in the quotient and a remainder of 1. The modulo operation gives us this remainder.
 
