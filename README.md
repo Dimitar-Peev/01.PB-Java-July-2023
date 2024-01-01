@@ -9,6 +9,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 
 
 ## Course topics
+
 ### First Steps In Coding
 - [Lab](https://github.com/Dimitar-Peev/01.PB-Java-July-2023/tree/main/_01_FirstStepsInCoding/_01_Lab)
 - [Exercise](https://github.com/Dimitar-Peev/01.PB-Java-July-2023/tree/main/_01_FirstStepsInCoding/_02_Exercise)
