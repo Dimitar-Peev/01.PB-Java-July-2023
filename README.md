@@ -47,5 +47,4 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [Programming Basics Online Exam - 18 And 19 July 2020](https://github.com/Dimitar-Peev/01.PB-Java-July-2023/tree/main/_08_ProgrammingBasicsExams/PB_Online_Exam_18_and_19_July_2020)
 
 ## Certificates
-![Programming Basics Certificate](https://softuni.bg/certificates/details/182553/ca9a0a1d)
-![Java OOP - October 2020 - Certificate](https://user-images.githubusercontent.com/58764584/106199332-f5791b00-61bd-11eb-9c52-863d85565dfe.jpeg)
+[Programming Basics Certificate](https://softuni.bg/certificates/details/182553/ca9a0a1d)
