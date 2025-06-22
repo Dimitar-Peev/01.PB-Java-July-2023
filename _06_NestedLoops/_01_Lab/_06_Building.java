@@ -16,7 +16,7 @@ public class _06_Building {
   
                 if (floor == countFloors) { 
                     System.out.print("L" + floor + room + " ");
-                } else if (floor % 2 == 0) { /
+                } else if (floor % 2 == 0) {
                     System.out.print("O" + floor + room + " ");
                 } else { 
                     System.out.print("A" + floor + room + " ");
