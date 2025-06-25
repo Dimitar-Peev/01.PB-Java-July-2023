@@ -1,4 +1,4 @@
-package PB_Exams.PB_Online_Exam_18_and_19_July_2020;
+package _7_ExamPrep;
 
 import java.util.Scanner;
 
