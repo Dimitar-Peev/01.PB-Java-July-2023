@@ -32,10 +32,12 @@ public class _08_OnTimeForTheExam {
 
         diffMinutes = Math.abs(diffMinutes);
 
-        if (diffMinutes < 60) {
-            System.out.printf("%d minutes %s the start", diffMinutes, arrivalPeriod);
-        } else {
-            System.out.printf("%d:%02d hours %s the start", diffMinutes / 60, diffMinutes % 60, arrivalPeriod);
+        if (diffMinutes != 0) {
+            if (diffMinutes < 60) {
+                System.out.printf("%d minutes %s the start", diffMinutes, arrivalPeriod);
+            } else {
+                System.out.printf("%d:%02d hours %s the start", diffMinutes / 60, diffMinutes % 60, arrivalPeriod);
+            }
         }
     }
 }
