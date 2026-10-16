@@ -10,44 +10,44 @@ public class _08_FuelTankPart2 {
         int fuelQuantity = Integer.parseInt(scanner.nextLine());
         String clubCard = scanner.nextLine();
 
+        final double GASOLINE_PRICE = 2.22;
+        final double DIESEL_PRICE = 2.33;
+        final double GAS_PRICE = 0.93;
+
+        final double GASOLINE_DISCOUNT = 0.18;
+        final double DIESEL_DISCOUNT = 0.12;
+        final double GAS_DISCOUNT = 0.08;
+
         double fuelPrice = 0;
 
-        switch (fuelType){
-            case "Gas":
-                if (clubCard.equals("Yes")){
-                    fuelPrice = 0.93-0.08;
-                } else if (clubCard.equals("No")){
-                    fuelPrice = 0.93;
-                }
-                break;
+        switch (fuelType) {
             case "Gasoline":
-                if (clubCard.equals("Yes")){
-                    fuelPrice = 2.22-0.18;
-                } else if (clubCard.equals("No")){
-                    fuelPrice = 2.22;
-                }
+                fuelPrice = GASOLINE_PRICE;
                 break;
             case "Diesel":
-                if (clubCard.equals("Yes")){
-                    fuelPrice = 2.33-0.12;
-                } else if (clubCard.equals("No")){
-                    fuelPrice = 2.33;
-                }
+                fuelPrice = DIESEL_PRICE;
                 break;
+            case "Gas":
+                fuelPrice = GAS_PRICE;
+                break;
+        }
+
+        if (clubCard.equals("Yes")) {
+            switch (fuelType) {
+                case "Gasoline" -> fuelPrice -= GASOLINE_DISCOUNT;
+                case "Diesel" -> fuelPrice -= DIESEL_DISCOUNT;
+                case "Gas" -> fuelPrice -= GAS_DISCOUNT;
+            }
         }
 
         double totalPrice = fuelPrice * fuelQuantity;
 
-        if (fuelQuantity >= 20 && fuelQuantity <= 25){
-            totalPrice = totalPrice * 0.92;
+        if (fuelQuantity >= 20 && fuelQuantity <= 25) {
+            totalPrice *= 0.92;
         } else if (fuelQuantity > 25) {
-            totalPrice = totalPrice * 0.9;
+            totalPrice *= 0.9;
         }
 
-
         System.out.printf("%.2f lv.", totalPrice);
-
-
-
     }
 }
