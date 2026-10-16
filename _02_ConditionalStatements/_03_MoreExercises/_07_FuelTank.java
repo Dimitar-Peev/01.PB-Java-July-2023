@@ -7,34 +7,18 @@ public class _07_FuelTank {
         Scanner scanner = new Scanner(System.in);
 
         String fuelType = scanner.nextLine();
-        int fuleQuantity = Integer.parseInt(scanner.nextLine());
+        int fuel_liters = Integer.parseInt(scanner.nextLine());
 
-        switch (fuelType) {
-            case "Diesel":
-                if (fuleQuantity >= 25){
-                    System.out.println("You have enough diesel.");
-                } else {
-                    System.out.println("Fill your tank with diesel!");
-                }
-                break;
-            case "Gasoline":
-                if (fuleQuantity >= 25){
-                    System.out.println("You have enough gasoline.");
-                } else {
-                    System.out.println("Fill your tank with gasoline!");
-                }
-                break;
-            case "Gas":
-                if (fuleQuantity >= 25){
-                    System.out.println("You have enough gas.");
-                } else {
-                    System.out.println("Fill your tank with gas!");
-                }
-                break;
-            default:
-                System.out.println("Invalid fuel!");
-                break;
+        boolean isValidFuel = fuelType.equals("Diesel") || fuelType.equals("Gasoline") || fuelType.equals("Gas");
 
+        if (!isValidFuel) {
+            System.out.println("Invalid fuel!");
+        } else {
+            if (fuel_liters >= 25) {
+                System.out.println("You have enough " + fuelType.toLowerCase() + ".");
+            } else {
+                System.out.println("Fill your tank with " + fuelType.toLowerCase() + "!");
+            }
         }
     }
 }
